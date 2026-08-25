@@ -57,7 +57,7 @@ void main() {
   _testSuite.test("Defaults via overloaded field constructors round trip",
       () {
     final input =
-        ConstructorVisibility_InitializedPublicFieldsViaOverloadedFieldCtors();
+        ConstructorVisibilityInitializedPublicFieldsViaOverloadedFieldCtors();
 
     expect(input.initializedField1.field1, "abc");
     expect(input.initializedField1.field2, "def");
